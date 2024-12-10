@@ -1,0 +1,39 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "packager": "electron-packager ./ 甘肃省油橄榄适生区分布演示系统 --win --arch=x64 --out ..\\out --electron-zip-dir=..\\out --ignore=node_modules --icon=./dist/favicon.ico --asar",
+    "package": "electron-forge package",
+    "make": "electron-forge makea",
+    "electron": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "electron-packager": "^17.1.2",
+    "electron-prebuilt-compile": "8.2.0",
+    "electron-vite": "^2.3.0",
+    "vite-plugin-obfuscator": "^1.0.5"
+  },
+  "dependencies": {
+    "electron": "^33.2.0",
+    "electron-forge": "^5.2.4",
+    "electron-packager": "^17.1.2",
+    "electron-squirrel-startup": "^1.0.1",
+    "punycode": "^2.3.1"
+  }
+}
